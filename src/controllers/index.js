@@ -1,3 +1,4 @@
 const healthCheckController = require("./healthCheckController");
+const universityController = require("./universityController");
 
-module.exports = { healthCheckController };
+module.exports = { healthCheckController, universityController };

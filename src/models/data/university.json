@@ -1,0 +1,22 @@
+{
+  "name": "Abertay University of Dundee",
+  "description": "Die Universität Abertay Dundee ist mit ca. 5000 Studenten die kleinste Universität in Dundee, Schottland. Die Universität besteht aus insgesamt fünf Fakultäten. Sie ist im Zentrum der Hafenstadt Dundee gelegen und ihre Gebäude gehören zu den modernsten Universitätsgebäuden im UK. Bekannt ist Abertay vor allem für den Bereich Informatik. Sie war weltweit die erste Universität die 1997 einen Studiengang in Computer Games angeboten hat. Interesse? Schnell registrieren und bewerben!",
+  "suitableCourses": [{ "courseName": "Wirtschaftsinformatik" }],
+  "address": {
+    "street": "Bell St",
+    "city": "Dundee",
+    "zip": "DD1 1HG",
+    "country": "GB",
+    "continent": "Europe"
+  },
+  "fees": {
+    "feesPerSemester": 1000,
+    "currencyCode": "GBP"
+  },
+  "semesterDurationMonths": {
+    "min": 4,
+    "max": 4.5
+  },
+  "lectureLanguage": "EN",
+  "accomodation": ["Studentwohnheim"]
+}
