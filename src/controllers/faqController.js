@@ -34,7 +34,7 @@ module.exports = function faqController(University) {
 function createFeeReply(university) {
     return {
         "type": "text",
-        "content": `Die Studiengebühren an der ${university.name} betragen ${university.fees.feesPerSemester}${university.fees.currencyCode} pro Semester`
+        "content": `Die Studiengebühren an der ${university.name} betragen ${university.fees.feesPerSemester} ${university.fees.currencyCode} pro Semester`
     }
 }
 
