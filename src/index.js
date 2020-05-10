@@ -11,6 +11,8 @@ const port = process.env.PORT || 3000;
 
 const University = require("./models/universityModel");
 
+const { serversideValidationMiddleware } = require("./middleware");
+
 const healthCheckRouter = require("./routers/healthCheckRouter")();
 const universityRouter = require("./routers/universityRouter")(University);
 
@@ -18,6 +20,7 @@ server.use(cors());
 server.use(compression());
 server.use(bodyParser.urlencoded({ extended: true }));
 server.use(bodyParser.json());
+server.use(serversideValidationMiddleware);
 
 server.use("/health", healthCheckRouter);
 server.use("/universities", universityRouter);
