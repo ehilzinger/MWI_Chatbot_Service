@@ -1,0 +1,23 @@
+{
+  "name": "Durban University of Technology ",
+  "description": "Die Technische Universität Durban, kurz DUT, ist eine technische Universität in Durban, KwaZulu-Natal, Südafrika. Sie wurde 2002 durch die Zusammenlegung mit den Institutionen Technikon Natal und ML Sultan Technikon gegründet, vorher war sie als Durban Institute of Technology bekannt. 2010 waren etwa 25.237 Studierende eingeschrieben. Die Lehrsprache ist Englisch. Durban liegt an der Ostküste von Südafrika in der Nähe der Drakenberge. 2010 fanden hier einige Spiele für die Fußballweltmeisterschaft statt. Sie ist eine Großstadt mit 595.000 Einwohnern. Die durchschnittliche Wassertemperatur beträgt 22 Grad.",
+  "suitableCourses": [{ "courseName": "Wirtschaftsinformatik" }],
+  "address": {
+    "houseNumber": "41/43 M L",
+    "street": "Sultan Rd",
+    "city": "Durban",
+    "zip": "4001",
+    "country": "ZA",
+    "continent": "Africa"
+  },
+  "fees": {
+    "feesPerSemester": 4500,
+    "currencyCode": "ZAR"
+  },
+  "semesterDurationMonths": {
+    "min": 5,
+    "max": 6
+  },
+  "lectureLanguage": "EN",
+  "accomodation": ["Studentwohnheim"]
+}

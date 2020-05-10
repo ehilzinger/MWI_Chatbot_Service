@@ -14,6 +14,7 @@ const University = require("./models/universityModel");
 const { serversideValidationMiddleware } = require("./middleware");
 
 const healthCheckRouter = require("./routers/healthCheckRouter")();
+const faqRouter = require("./routers/faqRouter")(University);
 const universityRouter = require("./routers/universityRouter")(University);
 
 server.use(cors());
@@ -23,6 +24,7 @@ server.use(bodyParser.json());
 server.use(serversideValidationMiddleware);
 
 server.use("/health", healthCheckRouter);
+server.use("/faq", faqRouter);
 server.use("/universities", universityRouter);
 
 

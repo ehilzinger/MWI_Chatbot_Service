@@ -1,0 +1,23 @@
+{
+  "name": "American University in Bulgaria",
+  "description": "Gegründet wurde die Universität im Jahr 1991. Sie hat etwa 1072 Studenten aus 26 vor allem osteuropäischen Staaten. Die Lehrsprache ist Englisch. Die Universität sieht ihre Aufgabe darin, „zukünftige Führungskräfte auszubilden, die in die Werte einer offenen, demokratischen Gesellschaft eingeweiht werden und der Gemeinschaft auf diesem Wege dienen.“ Der an dieser Universität mögliche Abschluss des Bachelors wird in Bulgarien und den Vereinigten Staaten von Amerika anerkannt. Es gibt 74 Fakultätsmitglieder, von denen etwa die Hälfte Amerikaner sind. Die Universität orientiert sich stark am amerikanischen Campusleben, jeder der dafür nicht auf die andere Seite des großen Teichs möchte, hat hier die Möglich den American Way of Life in Europa kennen zu lernen.    ",
+  "suitableCourses": [{ "courseName": "Wirtschaftsinformatik" }],
+  "address": {
+    "houseNumber": 2700,
+    "street": "Southern Industrial Zone",
+    "city": "Blagoevgrad",
+    "zip": "2700",
+    "country": "BG",
+    "continent": "Europe"
+  },
+  "fees": {
+    "feesPerSemester": 500,
+    "currencyCode": "EUR"
+  },
+  "semesterDurationMonths": {
+    "min": 5,
+    "max": 6
+  },
+  "lectureLanguage": "EN",
+  "accomodation": ["Studentwohnheim"]
+}

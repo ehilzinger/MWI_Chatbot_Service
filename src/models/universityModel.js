@@ -11,7 +11,7 @@ const universityModel = new Schema({
         }
     ],
     address: {
-        houseNumber: Number,
+        houseNumber: { type: String, required: false },
         street: { type: String, required: true },
         city: { type: String, required: true },
         zip: {
@@ -30,7 +30,7 @@ const universityModel = new Schema({
         min: { type: Number, min: 0, required: true },
         max: { type: Number, min: 0, required: true }
     },
-    lectureLanguage: { type: String, required: true },
+    lectureLanguage: [{ type: String, required: true }],
     accomodation: [{ type: String, required: true }]
 }, { timestamps: true });
 

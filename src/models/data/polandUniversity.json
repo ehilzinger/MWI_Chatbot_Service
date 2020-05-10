@@ -1,0 +1,23 @@
+{
+  "name": "Technischen Universität Lodz",
+  "description": "Die technische Universität wurde 1945 mit rund 500 Studierenden gegründet. Heute studieren ca. 20.000 an der Hochschule. Im Rahmen der Internationalisierung hat sich die Universität mit einer „International Faculty of Engineering“ (IFE) hervorgetan. Hier kann in englischer und französischer Sprache studiert werden.",
+  "suitableCourses": [{ "courseName": "Wirtschaftsingenieurwesen" }],
+  "address": {
+    "houseNumber": "68",
+    "street": "ul. Prez. Gabriela Narutowicza",
+    "city": "Łódź",
+    "zip": "90-136",
+    "country": "PL",
+    "continent": "Europe"
+  },
+  "fees": {
+    "feesPerSemester": 4500,
+    "currencyCode": "ZAR"
+  },
+  "semesterDurationMonths": {
+    "min": 5,
+    "max": 6
+  },
+  "lectureLanguage": ["EN", "FR"],
+  "accomodation": ["Studentwohnheim"]
+}

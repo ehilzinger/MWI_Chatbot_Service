@@ -1,0 +1,22 @@
+{
+  "name": "Costa Rica Institute of Technology",
+  "description": "Das Instituto Tecnológico de Costa Rica ist eine staatliche Universität, spezialisiert auf Ingenieurs- und Naturwissenschaften liegt in Cartago, 22km östlich von der Hauptstadt San José auf etwa 1432m. Die Stadt mit ca. 150000 Einwohnern liegt am Fuße des Vulkans Irazú. Die Universität hat etwa 9000 Studierende, verteilt auf den Hauptcampus und weitere Standorte in Santa Clara,San Carlos, San José, Alajuela und Limon. Die Lehrsprache ist Spanisch.",
+  "suitableCourses": [{ "courseName": "Wirtschaftsinformatik" }],
+  "address": {
+    "street": "Calle 15, Avenida 14",
+    "city": "Cartago",
+    "zip": "30101",
+    "country": "CR",
+    "continent": "South America"
+  },
+  "fees": {
+    "feesPerSemester": 654,
+    "currencyCode": "CRC"
+  },
+  "semesterDurationMonths": {
+    "min": 5,
+    "max": 6
+  },
+  "lectureLanguage": "ES",
+  "accomodation": ["Studentwohnheim"]
+}

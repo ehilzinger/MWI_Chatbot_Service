@@ -1,0 +1,24 @@
+{
+  "name": "California State University San Marcos",
+  "description": "Die California State University ist das größte staatliche Hochschulnetzwerk des Bundesstaats Kalifornien mit insgesamt 400.000 Studierenden an 23 Standorten. Einer davon ist der 1989 gegründete Campus in San Marcos mit insgesamt ca. 9000 Studierenden in drei Fakultäten. Die Stadt San Marcos liegt im San Diego County und hat ca. 80.000 Einwohner. Der Standort Karlsruhe koordiniert den Austausch für alle DHBW-Standorte. Interesse? Schnell registrieren und bewerben!",
+  "suitableCourses": [{ "courseName": "Wirtschaftsinformatik" }],
+  "address": {
+    "houseNumber": 333,
+    "street": " S Twin Oaks Valley Rd",
+    "city": "San Marcos",
+    "zip": "92096",
+    "state": "CA",
+    "country": "US",
+    "continent": "North Americy"
+  },
+  "fees": {
+    "feesPerSemester": 1400,
+    "currencyCode": "USD"
+  },
+  "semesterDurationMonths": {
+    "min": 5,
+    "max": 6
+  },
+  "lectureLanguage": "EN",
+  "accomodation": ["Studentwohnheim"]
+}

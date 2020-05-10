@@ -1,0 +1,23 @@
+{
+  "name": "South-Eastern Finland University of Applied Sciences",
+  "description": "Die South-Eastern Finland University of Applied Sciences (Xamk) ist eine 2017 Universität in der finnischen Stadt Mikkeli. Sie wird aktuell von ca. 9300 Studierenden besucht und ist die größte Universität in Finnland im Bereich Forschung und Entwicklung. Die Lehrsprache ist Englisch. Mikkeli ist eine Kleinstadt mit 54000 Einwohnern und liegt an der Savilahti-Bucht, ca. 230km von der Hauptstadt Helsinki entfernt.",
+  "suitableCourses": [{ "courseName": "Wirtschaftsinformatik" }],
+  "address": {
+    "houseNumber": "3D",
+    "street": "Patteristonkatu",
+    "city": "Mikkeli",
+    "zip": "50100",
+    "country": "FI",
+    "continent": "Africa"
+  },
+  "fees": {
+    "feesPerSemester": 250,
+    "currencyCode": "EUR"
+  },
+  "semesterDurationMonths": {
+    "min": 5,
+    "max": 6
+  },
+  "lectureLanguage": "EN",
+  "accomodation": ["Studentwohnheim"]
+}
