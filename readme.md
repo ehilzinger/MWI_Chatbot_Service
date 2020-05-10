@@ -27,6 +27,10 @@
 - [SAP CAI Project](https://cai.tools.sap/theeny53/intsem/)
 - [MongoDB Atlas Instance for Production Use](https://cloud.mongodb.com/v2/5d6c0dd9cf09a28b6f3d68cc#clusters/detail/Cluster0)
 
+# About
+
+This is a chatbot client designed to work in conjunction with [SAP Conversational AI](https://cai.tools.sap/) for [this project](https://github.com/mwi-projekt/Auslandssemesterportal2016) created at the Cooperative State University Baden-Wuerttemberg.
+
 #
 
 © 2020 Enzo Hilzinger
