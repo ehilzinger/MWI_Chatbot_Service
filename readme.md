@@ -31,6 +31,8 @@
 
 This is a chatbot client designed to work in conjunction with [SAP Conversational AI](https://cai.tools.sap/) for [this project](https://github.com/mwi-projekt/Auslandssemesterportal2016) created at the Cooperative State University Baden-Wuerttemberg.
 
+For questions, problems or feedback contact me [here](mailto:enzo@creationeers.tech?subject=[GitHub]%20MWI%20Chatbot%20Backend)
+
 #
 
 © 2020 Enzo Hilzinger
