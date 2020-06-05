@@ -1,7 +1,7 @@
 const { replyGenerator, getWeatherData } = require("../util");
 
 module.exports = function faqController(University) {
-    function post(req, res) {
+    async function post(req, res) {
         const { location } = req.body.nlp.entities;
         const { language } = req.body.nlp;
         const generator = replyGenerator(language);
@@ -17,26 +17,31 @@ module.exports = function faqController(University) {
                 universities.forEach(university => {
                     if (intent === "study_fees") {
                         reply.replies.push(generator.createFeeReply(university))
+                        return res.status(200).json(reply);
                     }
                     else if (intent === "semester_duration") {
                         reply.replies.push(generator.createDurationReply(university))
+                        return res.status(200).json(reply);
                     }
                     else if (intent === "lecture_language") {
                         reply.replies.push(generator.createLanguageReply(university))
+                        return res.status(200).json(reply);
                     }
                     else if (intent === "accomodation") {
                         reply.replies.push(generator.createAccomodationReply(university))
+                        return res.status(200).json(reply);
                     }
                     else if (intent === "weather") {
-                        getWeatherData(universitiy).then(weather => {
+                        getWeatherData(university).then(weather => {
                             reply.replies.push(generator.createWeatherReply(university, weather));
-                        })
+                            return res.status(200).json(reply);
+                        }).catch(e => console.log(e))
+
                     }
                     else if (intent === "") {
 
                     }
                 });
-                return res.status(200).json(reply);
             }
             else {
                 reply.replies.push(generator.createNotFoundReply(location))

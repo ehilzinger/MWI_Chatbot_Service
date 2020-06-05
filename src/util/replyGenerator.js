@@ -31,7 +31,7 @@ module.exports = function replyGenerator(language) {
 
         return {
             "type": "text",
-            "content": `Das Wetter in  ${university.address.city} ist derzeit ${weather.weather.main} `
+            "content": `Das Wetter in  ${university.address.city} ist derzeit ${weather.weather[0].main} `
         }
     }
 
