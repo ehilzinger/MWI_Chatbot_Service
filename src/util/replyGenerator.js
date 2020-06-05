@@ -20,11 +20,18 @@ module.exports = function replyGenerator(language) {
         }
     }
 
+    function createAccomodationReply(university) {
+        return {
+            "type": "text",
+            "content": `Die Unterbringung an der ${university.name} erfolgt in ` + university.accomodation.map(acc => { return (acc + ",") }) + "."
+        }
+    }
+
     function createNotFoundReply(location) {
         return {
             "type": "text",
             "content": `Sorry, aber ich habe kein Ergebnis für ${location[0].formatted} gefunden.`
         }
     }
-    return { createFeeReply, createDurationReply, createLanguageReply, createNotFoundReply }
+    return { createFeeReply, createDurationReply, createLanguageReply, createAccomodationReply, createNotFoundReply }
 }
