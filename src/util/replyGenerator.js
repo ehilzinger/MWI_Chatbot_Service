@@ -13,11 +13,18 @@ module.exports = function replyGenerator(language) {
         }
     }
 
+    function createLanguageReply(university) {
+        return {
+            "type": "text",
+            "content": `Die Sprache an der ${university.name} ist ${university.lectureLanguage}.`
+        }
+    }
+
     function createNotFoundReply(location) {
         return {
             "type": "text",
             "content": `Sorry, aber ich habe kein Ergebnis für ${location[0].formatted} gefunden.`
         }
     }
-    return { createFeeReply, createDurationReply, createNotFoundReply }
+    return { createFeeReply, createDurationReply, createLanguageReply, createNotFoundReply }
 }
