@@ -23,7 +23,7 @@ module.exports = function replyGenerator(language) {
     function createAccomodationReply(university) {
         return {
             "type": "text",
-            "content": `Die Unterbringung an der ${university.name} erfolgt in ` + university.accomodation.map(acc => { return (acc + ",") }) + "."
+            "content": `Die Unterbringung an der ${university.name} erfolgt in ` + university.accomodation.map(acc => { return ("- " + acc + "\n") }) + "."
         }
     }
 
