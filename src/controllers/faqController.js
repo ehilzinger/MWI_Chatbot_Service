@@ -25,7 +25,7 @@ module.exports = function faqController(University) {
                         reply.replies.push(generator.createLanguageReply(university))
                     }
                     else if (intent === "accomodation") {
-                        reply.replies.push(generator.createLanguageReply(university))
+                        reply.replies.push(generator.createAccomodationReply(university))
                     }
                     else if (intent === "") {
 
