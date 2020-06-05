@@ -1,0 +1,12 @@
+version: "2.1"
+
+services:
+  mwi_chatbot_backend:
+    image: mwi_chatbot_backend
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3000
+    env_file:
+      - .env

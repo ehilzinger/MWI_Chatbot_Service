@@ -18,6 +18,9 @@ module.exports = function faqController(University) {
                     if (intent === "study_fees") {
                         reply.replies.push(generator.createFeeReply(university))
                     }
+                    else if (intent === "semester_duration") {
+                        reply.replies.push(generator.createDurationReply(university))
+                    }
                     else if (intent === "") {
 
                     }

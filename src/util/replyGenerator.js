@@ -2,7 +2,14 @@ module.exports = function replyGenerator(language) {
     function createFeeReply(university) {
         return {
             "type": "text",
-            "content": `Die Studiengebühren an der ${university.name} betragen ${university.fees.feesPerSemester} ${university.fees.currencyCode} pro Semester`
+            "content": `Die Studiengebühren an der ${university.name} betragen ${university.fees.feesPerSemester} ${university.fees.currencyCode} pro Semester.`
+        }
+    }
+
+    function createDurationReply(university) {
+        return {
+            "type": "text",
+            "content": `Die Dauer eines Semesters an der ${university.name} beträgt zwischen ${university.semesterDurationMonths.min} und ${university.semesterDurationMonths.max} Monate.`
         }
     }
 
@@ -12,5 +19,5 @@ module.exports = function replyGenerator(language) {
             "content": `Sorry, aber ich habe kein Ergebnis für ${location[0].formatted} gefunden.`
         }
     }
-    return { createFeeReply, createNotFoundReply }
+    return { createFeeReply, createDurationReply, createNotFoundReply }
 }
