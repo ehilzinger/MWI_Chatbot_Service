@@ -1,4 +1,4 @@
-const { replyGenerator } = require("../util");
+const { replyGenerator, getWeatherData } = require("../util");
 
 module.exports = function faqController(University) {
     function post(req, res) {
@@ -26,6 +26,11 @@ module.exports = function faqController(University) {
                     }
                     else if (intent === "accomodation") {
                         reply.replies.push(generator.createAccomodationReply(university))
+                    }
+                    else if (intent === "weather") {
+                        getWeatherData(universitiy).then(weather => {
+                            reply.replies.push(generator.createWeatherReply(university, weather));
+                        })
                     }
                     else if (intent === "") {
 

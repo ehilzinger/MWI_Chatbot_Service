@@ -27,11 +27,19 @@ module.exports = function replyGenerator(language) {
         }
     }
 
+    function createWeatherReply(university, weather) {
+
+        return {
+            "type": "text",
+            "content": `Das Wetter in  ${university.address.city} ist derzeit ${weather.weather.main} `
+        }
+    }
+
     function createNotFoundReply(location) {
         return {
             "type": "text",
             "content": `Sorry, aber ich habe kein Ergebnis für ${location[0].formatted} gefunden.`
         }
     }
-    return { createFeeReply, createDurationReply, createLanguageReply, createAccomodationReply, createNotFoundReply }
+    return { createFeeReply, createDurationReply, createLanguageReply, createAccomodationReply, createWeatherReply, createNotFoundReply }
 }
