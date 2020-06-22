@@ -39,7 +39,7 @@ module.exports = function faqController(University) {
 
                     }
                     else if (intent === "") {
-
+                        //additional intents register template
                     }
                 });
             }

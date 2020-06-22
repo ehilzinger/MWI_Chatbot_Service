@@ -2,7 +2,7 @@ require("dotenv").config();
 const fetch = require("node-fetch");
 
 function getWeatherData(university) {
-    return fetch(`http://api.openweathermap.org/data/2.5/weather?q=${university.address.city},${university.address.country}&appid=${process.env.OWM_API_KEY}`).then(handleResponse)
+    return fetch(`http://api.openweathermap.org/data/2.5/weather?q=${university.address.city},${university.address.country}&appid=${process.env.OWM_API_KEY}&lang=de`).then(handleResponse)
 }
 
 async function handleResponse(response) {
